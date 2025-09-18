@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Book Center</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+
+</head>
+<body>
+    <div class="container">
+        <h2>Booking: {{ center.name }}</h2>
+        <p>Location: {{ center.location }} | Capacity: {{ center.capacity }} | Cost: {{ center.cost }} BDT</p>
+
+        {% with messages = get_flashed_messages() %}
+          {% if messages %}
+            {% for message in messages %}
+              <p class="flash">{{ message }}</p>
+            {% endfor %}
+          {% endif %}
+        {% endwith %}
+
+        <form method="POST">
+            <input type="date" name="date" class="input-field" required>
+            <input type="time" name="time" class="input-field" required>
+            <button type="submit" class="btn btn-register">Book Now</button>
+        </form>
+
+        <p><a href="{{ url_for('dashboard', username=username) }}">Back to Dashboard</a></p>
+    </div>
+</body>
+</html>

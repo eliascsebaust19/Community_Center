@@ -1,0 +1,16 @@
+[
+    {
+        "fullname": "Md Elias Ahmad",
+        "username": "elias32",
+        "email": "eliasahmad3224@gmail.com",
+        "phone": "01703125674",
+        "password": "pbkdf2:sha256:260000$R6Df5Q6gFiV04jeK$58d1b2e9a1a1dcb7b1aa07f4d9152debcf0ec74771a624d782a1e2cce5d206b6"
+    },
+    {
+        "fullname": "Mahi islam",
+        "username": "mahi009",
+        "email": "mahi77@gmail.com",
+        "phone": "01703125678",
+        "password": "scrypt:32768:8:1$H4yL6o3ioXzOhPHC$f4f0adf0d19d536886ab13695b26c3542a905b617b9bf263c3ef1b0258b42c39321e2a3af0ebed5a95f89766888f9bedfce9cbf0ca7c4bd661defa8796be5682"
+    }
+]

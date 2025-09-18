@@ -1,0 +1,5 @@
+[
+    {"id": "c1", "name": "Community Hall A", "location": "Dhaka", "capacity": 50, "cost": 500},
+    {"id": "c2", "name": "Community Hall B", "location": "Chittagong", "capacity": 100, "cost": 1000},
+    {"id": "c3", "name": "Community Hall C", "location": "Sylhet", "capacity": 30, "cost": 300}
+]

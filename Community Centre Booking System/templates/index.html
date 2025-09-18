@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Welcome</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div id="welcome-bg">
+        <h1>Welcome to the Community Centre Booking System</h1>
+        <p>Book community halls easily with just a few clicks.</p>
+        <div class="button-group">
+            <a href="{{ url_for('login') }}" class="btn btn-login">Login</a>
+            <a href="{{ url_for('register') }}" class="btn btn-register">Register</a>
+        </div>
+    </div>
+</body>
+</html>
